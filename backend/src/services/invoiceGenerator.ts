@@ -11,7 +11,7 @@ type InvoiceLine = {
   totalPrice: number;
 };
 
-const COMPANY_NAME = "The Awla Company Pvt Ltd";
+const COMPANY_NAME = "The Awla Foods Pvt Ltd";
 const COMPANY_GSTIN = "08AAMCT9879P1ZV";
 const COMPANY_PHONES = "+91 96641 61773 | +91 95539 04820";
 
