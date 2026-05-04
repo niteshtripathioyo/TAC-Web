@@ -53,7 +53,7 @@ export async function generateShippingLabelPDF(
         }
 
         doc.fontSize(9).fillColor("#ffffff").font("Helvetica-Bold");
-        doc.text("The Awla Company Pvt Ltd", 40, 8);
+        doc.text("The Awla Foods Pvt Ltd", 40, 8);
         doc.fontSize(5).fillColor("#cccccc").font("Helvetica");
         doc.text("GSTIN: 08AAMCT9879P1ZV", 40, 20);
         doc.text("SHIPPING LABEL", 40, 28);
@@ -66,7 +66,7 @@ export async function generateShippingLabelPDF(
 
         y += 16;
         doc.fontSize(7).fillColor(black).font("Helvetica-Bold");
-        doc.text("The Awla Company Pvt Ltd", x + 4, y, { width: contentW - 8 });
+        doc.text("The Awla Foods Pvt Ltd", x + 4, y, { width: contentW - 8 });
         y += 10;
         doc.fontSize(6).fillColor(gray).font("Helvetica");
         doc.text("GSTIN: 08AAMCT9879P1ZV", x + 4, y, { width: contentW - 8 });
@@ -201,7 +201,7 @@ export async function generateShippingLabelPDF(
         // ===== FOOTER =====
         const footerY = labelH - 20;
         doc.fontSize(5).fillColor(lightGray).font("Helvetica");
-        doc.text("The Awla Company Pvt Ltd | GSTIN: 08AAMCT9879P1ZV", x, footerY, {
+        doc.text("The Awla Foods Pvt Ltd | GSTIN: 08AAMCT9879P1ZV", x, footerY, {
             width: contentW,
             align: "center",
         });
